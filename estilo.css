@@ -1,6 +1,85 @@
-h1{
-    font-size: 20px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
 }
-.cambios{
-    color: red;
+
+
+.hero {
+    height: 100vh;
+    background: url("fondo.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero h1 {
+    font-size: 64px;
+    letter-spacing: 4px;
+}
+
+.btn {
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.about {
+    display: flex;
+    padding: 60px;
+    gap: 40px;
+}
+
+.about-images img {
+    width: 300px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.about-text {
+    border: 2px solid purple;
+    padding: 30px;
+}
+
+
+.classes {
+    padding: 60px;
+    text-align: center;
+}
+
+.class-card {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin: 40px auto;
+    max-width: 900px;
+    border: 2px solid purple;
+    padding: 20px;
+}
+
+.class-card img {
+    width: 300px;
+}
+
+.class-card a {
+    display: inline-block;
+    margin-top: 10px;
+    border: 2px solid purple;
+    padding: 6px 14px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.footer {
+    background: url("fondo.jpg") center/cover no-repeat;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
 }
