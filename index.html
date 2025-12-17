@@ -1,65 +1,91 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <link rel="stylesheet" href="Flexbox.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Métodos de Arreglos en JavaScript</title>
+    <title>El Rincón Creativo</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <div class="container"> <!-- clase principal -->
-        <div class="item">
-            <h2>MAPeado para todo publico</h2>
-            <p>Permite crear un nuevo arreglo aplicando una función a cada elemento del arreglo original, sin modificarlo.</p>
+
+ 
+    <header class="hero">
+        <h1>EL RINCON<br>CREATIVO</h1>
+        <a href="#clases" class="btn">INGRESAR :)</a>
+    </header>
+
+    <section class="about">
+        <div class="about-images">
+            <img src="pintura1.jpg">
+            
         </div>
 
-        <div class="item">
-            <h2>FILTER</h2>
-            <p>Genera un nuevo arreglo con los elementos que cumplen una condición específica establecida en una función.</p>
+        <div class="about-text">
+            <h2>El Rincón Creativo.</h2>
+            <p>
+                El Rincón Creativo es un proyecto nacido de la pasión por las manualidades y el arte,
+                creado para personas que disfrutan transformar materiales simples en piezas únicas.
+            </p>
+            <p>
+                Somos una marca dedicada a inspirar la creatividad y construir una comunidad donde el
+                arte florezca a través de talleres y actividades creativas.
+            </p>
+        </div>
+    </section>
+
+   
+    <section id="clases" class="classes">
+        <h2>Únete a nuestras Clases.</h2>
+
+      
+        <div class="class-card">
+            <img src="alebrije.jpg">
+            <div>
+                <h3>Decora tu alebrije :)</h3>
+                <p>
+                    Decora tu propio alebrije con colores y diseños únicos, dejando volar tu imaginación
+                    para crear una pieza llena de identidad y creatividad.
+                </p>
+                <a href="#">ÚNETE A LA CLASE</a>
+            </div>
         </div>
 
-        <div class="item">
-            <h2>REDUCE</h2>
-            <p>Combina todos los elementos de un arreglo en un solo valor, aplicando una función acumuladora paso a paso.</p>
+        
+        <div class="class-card">
+            <img src="pinata.jpg">
+            <div>
+                <h3>Haz tu piñata</h3>
+                <p>
+                    Crea y decora tu propia piñata utilizando colores y formas divertidas,
+                    desarrollando tu creatividad mientras elaboras un elemento tradicional.
+                </p>
+                <a href="#">ÚNETE A LA CLASE</a>
+            </div>
         </div>
 
-        <div class="item">
-            <h2>FIND</h2>
-            <p>Devuelve el primer elemento del arreglo que cumple una condición determinada; si no existe, retorna undefined.</p>
+        <div class="class-card">
+            <img src="ceramica.jpg">
+            <div>
+                <h3>Cerámica.</h3>
+                <p>
+                    Moldea y decora tu propia pieza de cerámica, explorando formas y texturas
+                    para crear un objeto único hecho a mano.
+                </p>
+                <a href="#">ÚNETE A LA CLASE</a>
+            </div>
         </div>
+    </section>
 
-        <div class="item">
-            <h2>SORT</h2>
-            <p>Ordena los elementos de un arreglo según un criterio definido, ya sea de forma alfabética o numérica.</p>
+  
+    <footer class="footer">
+        <div>
+            <h3>CREADO CON CHAT :) ya no me odie tanto profe :(</h3>
         </div>
-
-        <div class="item">
-            <h2>INCLUDES</h2>
-            <p>Verifica si un arreglo contiene un elemento específico y devuelve true o false según el resultado.</p>
+        <div>
+            <h4>CONTACTO</h4>
+            <p>Correo electrónico:<br>christopher.sanchez@uib.edu.mx</p>
+            <p>Número telefónico:<br>5566660810</p>
         </div>
+    </footer>
 
-        <div class="item">
-            <h2>INDEX OF</h2>
-            <p>Indica la posición del primer elemento que coincide con el valor buscado dentro del arreglo, o -1 si no se encuentra.</p>
-        </div>
-
-        <div class="item">
-            <h2>SOME</h2>
-            <p>Comprueba si al menos un elemento del arreglo cumple una condición dada; devuelve true o false.</p>
-        </div>
-
-        <div class="item">
-            <h2>EVERY</h2>
-            <p>Evalúa si todos los elementos del arreglo cumplen una condición específica; devuelve true solo si todos lo hacen.</p>
-        </div>
-
-        <div class="item">
-            <h2>SLICE</h2>
-            <p>Copia una parte del arreglo original y devuelve un nuevo arreglo sin modificar el original.</p>
-        </div>
-    </div>
-
-    <script src="flexbox.js"></script>
 </body>
 </html>
-
